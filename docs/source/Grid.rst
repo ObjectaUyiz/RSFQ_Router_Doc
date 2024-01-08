@@ -31,6 +31,7 @@ Class Element
     - **CellVector**: *(std::vector<std::vector<Cell>>)*, public, all Cells need to be routed, and the 2-d vector can better levelize all Cells base on the requirement of RSFQ technology
     - **CurrentCellRoutingLevel**: *(uint8_t)*, public, this can use indicator to tell the program where we current are and if there are more levels to route
     - **MaxCellRoutingLevel**: *(uint8_t)*, public, the max level of levelized Cell array, duplicate of **CellVector[0].size()**
+    
 Class Function
 ^^^^^^^^^^^^^^^^
     - ``uint8_t initGridRoutingNodeVector(const uint32_t& _x, const uint32_t& _y)``

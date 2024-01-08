@@ -23,6 +23,7 @@ Class Element
     - **Nodes2Explore**: *(std::priority_queue<std::vector<uint32_t>>)* used to store all nodes next to explore when finding path
     - **RoutedPathCollect**: *(std::vector<Path>)*
     - **RouterGrid**: *(Grid)* The canvas for routing program use
+    
 Class Function
 ^^^^^^^^^^^^^^^^
     - ``uint8_t Routing2Nodes(const std::vector<uint32_t> Start, const std::vector<uint32_t> End, const std::vector<uint32_t> CellPos, const Cell& CurrentCell);``
