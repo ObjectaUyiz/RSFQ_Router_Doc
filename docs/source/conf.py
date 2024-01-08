@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'RSFQ Router'
-copyright = '2024, Ziyu Liu'
-author = 'Ziyu Liu'
+project = 'RSFQ_Router'
+copyright = '2024, ZiyuLiu'
+author = 'ZiyuLiu'
 
 release = '0.1'
 version = '0.1.0'
