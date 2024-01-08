@@ -11,7 +11,7 @@ This Document includes details of our router, from the base algorithm to module 
 
 **Inovation**:
    1. Because of the levelize characteristic,I implenment two different canvas, one is for every level routing, and one is for all routed-level, which is the finallized routing and Cells.
-      1. The advantage of having level-routing-grid is we can change the level-canvas freely and without worry about the relative position of the Cell at the previous level, after each level, we simply attach this level-canvas to the end of the Grid-canvas
+      1. The advantage of having level-routing-grid is we can change the level-canvas freely and without worry about the relative position of the Cell at the previous level, after each level, we simply attach this level-canvas to the   end of the Grid-canvas
    2. Use priorityBFS & Maze combine to find the shortest path without conflict
    3. If 2 nodes cannot find path within one level, we will extend the size of that level and re-run entire level
    4. Inorder to prevent one line cross all vertical resource for start & end, we try to first route horizontally
