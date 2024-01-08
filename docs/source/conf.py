@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'RSFQ_Router'
-copyright = '2024, ZiyuLiu'
+copyright = '2024,ZiyuLiu'
 author = 'ZiyuLiu'
 
 release = '0.1'
