@@ -4,6 +4,8 @@ Grid
 
 GridNode
 -----------
+    Structure Element
+    -----------------
 
 Cell
 -----------
