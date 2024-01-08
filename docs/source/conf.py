@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RSFQ Router'
+copyright = '2024, Ziyu Liu'
+author = 'Ziyu Liu'
 
 release = '0.1'
 version = '0.1.0'
