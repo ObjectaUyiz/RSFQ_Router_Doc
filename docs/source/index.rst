@@ -16,6 +16,7 @@ This Document includes details of our router, from the base algorithm to module 
    3. If 2 nodes cannot find path within one level, we will extend the size of that level and re-run entire level
    4. Inorder to prevent one line cross all vertical resource for start & end, we try to first route horizontally
 
+
 **Current upadte** finished node2node routing path find by using BFS&Maze algorithm, plan the entire project by division modules and functions
 
 .. note::

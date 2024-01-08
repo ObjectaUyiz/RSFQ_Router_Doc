@@ -10,6 +10,7 @@ RoutingNode
 
 Path
 -------------
+**description**: The length of each path also used for calculation the delay of this path, only the path with corret range of delay will be used and return, this step may optimzed by calculating within the *Routing2Nodes* function
 Structure Element
 ^^^^^^^^^^^^^^^^^
     - **StartPos**: *(std::vector<uint32_t>)* the start point of the path, usually the start point is *within* the Cell itself
@@ -23,7 +24,7 @@ Class Element
     - **Nodes2Explore**: *(std::priority_queue<std::vector<uint32_t>>)* used to store all nodes next to explore when finding path
     - **RoutedPathCollect**: *(std::vector<Path>)*
     - **RouterGrid**: *(Grid)* The canvas for routing program use
-    
+
 Class Function
 ^^^^^^^^^^^^^^^^
     - ``uint8_t Routing2Nodes(const std::vector<uint32_t> Start, const std::vector<uint32_t> End, const std::vector<uint32_t> CellPos, const Cell& CurrentCell);``
