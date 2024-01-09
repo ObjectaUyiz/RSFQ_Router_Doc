@@ -25,8 +25,8 @@ Welcome to RSFQ_Router's documentation!
       1. place all single level cells left-aligned, and create a gridboard with: **((largest width of left side cells) + (fixed width track number of routing space) + (largest width of right side cells)) * ((the larger height between left and right cells list) + (total space between vertical cells))**
       2. try to place cells on the gridboard, and routing path. If routing failed, reconfig the samll gridboard and re-run the step 2
       3. after successfully finish routing one-level, place the result onto the overall Grid Canvas, then repeat from step 1 until all cells are routed
-
-   Algorithm flow
+Algorithm flow
+^^^^^^^^^^^^^^^
          ``input: levelized cells
          input: inter-connection between cells
          if (still have level to route)
