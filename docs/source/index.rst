@@ -12,7 +12,7 @@ Welcome to RSFQ_Router's documentation!
   
 
 **Innovation**:
---------------
+----------------
    1. Because of the levelize characteristic, I implenment two different canvas, one is for every level routing, and one is for all routed-level, which is the finallized routing and Cells.
 
       1. The *advantage* of having **level-routing-grid** is we can change the level-canvas *freely* and **without worry about the relative position of the Cell at the previous level**, after each level, we simply attach this level-canvas to the end of the Grid-canvas
