@@ -27,7 +27,7 @@ Welcome to RSFQ_Router's documentation!
       3. after successfully finish routing one-level, place the result onto the overall Grid Canvas, then repeat from step 1 until all cells are routed
 
       Algorithm flow::
-         input: levelized cells
+         ``input: levelized cells
          input: inter-connection between cells
          if (still have level to route)
          try do {
@@ -41,7 +41,7 @@ Welcome to RSFQ_Router's documentation!
                if(faild-list.size larger threshold) reconfig current-level-grid-board, size it bigger, rerun current level
                if(success) attach current-level-grid-board to GridCanvas
             }
-         }
+         }``
 
 
 .. note::
