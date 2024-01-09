@@ -57,7 +57,7 @@ Welcome to RSFQ_Router's documentation!
    The project&document is under active development
    **Current upadte** finished node2node routing path find by using BFS&Maze algorithm, plan the entire project by division modules and functions
 
-**Implenmentation**
+**implementation**
 ---------------------
 .. toctree::
    Grid
