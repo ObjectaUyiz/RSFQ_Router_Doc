@@ -22,10 +22,11 @@ Welcome to RSFQ_Router's documentation!
 **WhyMAZE?**:
 -------------
    Because all element in the RSFQ are squres, thus the most easy way to place element into canvas is using gridboard, each gird represent the smallest element, usually is the passing block, larger blocks occupy an area consists by small grid nodes which no resources can use, then Maze and BFS is the best candidate. Base on that thinking, the question is much like we place Cells onto the board, then find path between two grid we want to connect. And also because the levelized cells, for each cell level, we use a small gridboard specific for this level, and then:
-      1. place all single level cells left-aligned, and create a gridboard with: **((largest width of left side cells) + (fixed width track number of routing space) + (largest width of right side cells)) * ((the larger height between left and right cells list) + (total space between vertical cells))**
+      1. place all single level cells left-aligned, and create a gridboard with: 
+         - **((largest width of left side cells) + (fixed width track number of routing space) + (largest width of right side cells)) * ((the larger height between    left and right cells list) + (total space between vertical cells))**
       2. try to place cells on the gridboard, and routing path. If routing failed, reconfig the samll gridboard and re-run the step 2
       3. after successfully finish routing one-level, place the result onto the overall Grid Canvas, then repeat from step 1 until all cells are routed
-      
+
    ::
 
          Algorithm flow
