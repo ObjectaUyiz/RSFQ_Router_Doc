@@ -11,7 +11,7 @@ Welcome to RSFQ_Router's documentation!
    4. *each element can represent simply by a box, wire-connection is a serials connected passing boxes*
   
 
-**Inovation**:
+**Innovation**:
 --------------
    1. Because of the levelize characteristic, I implenment two different canvas, one is for every level routing, and one is for all routed-level, which is the finallized routing and Cells.
 
