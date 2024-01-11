@@ -19,6 +19,6 @@ Develop_log_Jan_10
         
     3. Drawed a software flow for reference:
 
-        .. image:: /media/flow.png
+        .. image:: /media/flow_2.png
             :alt: software flow
             :align: center
