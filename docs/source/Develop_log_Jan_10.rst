@@ -8,7 +8,7 @@ Develop_log_Jan_10
         2.1 the first directory should contain the information about the cells, included:
 
             - Cell index, use to get cell information like width and height
-            - Cell level, this can be included in Vector<Vector> position of that cell
+            - Cell level, this can be included in ``Vector<Vector>`` position of that cell
             - list of cell port, each port for both cells should have unique identify ID, this can help in later routing to determining which position to place the port and how to connect the two port
 
         2.1 the second directory contains all constrain and connection between cells:
@@ -19,7 +19,7 @@ Develop_log_Jan_10
         
     3. Drawed a software flow for reference
 
-        .. figure: ../media/flow.png
-           :alt: software flow
-           :align: center
-           :caption: software flow
+        .. figure:: ../media/flow.png
+            :alt: software flow
+            :align: center
+            :caption: software flow
