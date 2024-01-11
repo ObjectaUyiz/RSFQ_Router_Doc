@@ -17,9 +17,8 @@ Develop_log_Jan_10
             - connection cells and corresponding ports
             - connection delay requirements
         
-    3. Drawed a software flow for reference
+    3. Drawed a software flow for reference:
 
         .. figure:: ../media/flow.png
             :alt: software flow
             :align: center
-            :caption: software flow
