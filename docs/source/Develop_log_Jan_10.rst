@@ -22,6 +22,7 @@ Develop_log_Jan_10
         .. image:: ../media/flow.png
             :alt: software flow
             :align: center
+            
         .. image:: /media/flow.png
             :alt: software flow
             :align: center
