@@ -1,0 +1,28 @@
+Develop_log_Jan_13
+====================
+
+
+**Log**:
+    1. Draw a diagram for level by level routing and how the final output should look like
+
+        .. image:: /media/output.png
+            :alt: output diagram
+            :align: center
+
+    2. diagram representation for algorithm
+
+        2.1. find 2 continuous level of cells, according to simple architecture, we first find the widthest cell for both levels, then width1+ width2 + routing width is the width of the level grids:
+
+            .. image:: /media/initialRoutingLevel.png
+                :alt: initialRoutingLevel
+                :align: center
+
+        2.2. For each level, we combine them into 1 piece, as shown in output diagram.
+
+    3. researching more path finding algorithm and try to replace the gbfs routing to improve the performance.
+
+            
+
+
+
+        
