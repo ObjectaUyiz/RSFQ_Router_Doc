@@ -54,6 +54,7 @@ Welcome to RSFQ_Router's documentation!
 
 .. note::
    - The project&document is under active development
+   - Simplify design rules, only consider the cells have right ports to connect to the left port from otherside cell
    - **Current upadte** finished node2node routing path find by using BFS&Maze algorithm, plan the entire project by division modules and functions
 
 **implementation**
@@ -63,3 +64,4 @@ Welcome to RSFQ_Router's documentation!
    Router
    Develop_log_Jan_10
    Develop_log_Jan_13
+   Design_simplify_jan_18
